@@ -1,3 +1,54 @@
+/*
+The Interpreter class serves as the core execution engine for SMOL.
+
+1. Program State Management
+
+class Interpreter(
+    val stack: Stack<StackEntry>,     // Program execution stack
+    var heap: GlobalMemory,           // Program object storage
+    var simMemory: SimulationMemory,  // Simulation object storage
+    val staticInfo: StaticTable,      // Program structure info
+    val settings: Settings            // Configuration settings
+)
+
+2. Program Execution Control:
+
+fun makeStep(): Boolean {
+    if(stack.isEmpty()) return false  // Program terminated
+
+    // Get current execution frame
+    val current = stack.pop()
+
+    // Get object memory
+    val heapObj: Memory = heap.getOrDefault(current.obj, mutableMapOf())
+
+    // Execute next statement
+    val eRes = current.active.eval(heapObj, current, this)
+
+    // Handle execution results...
+}
+
+3. Expression Evaluation:
+
+fun eval(expr: Expression, stackEntry: StackEntry) =
+    eval(expr, stackEntry.store, this.heap, this.simMemory, stackEntry.obj)
+
+4. Semantic Query Support:
+
+fun query(str: String): ResultSet?  // Execute SPARQL queries
+fun owlQuery(str: String): NodeSet<OWLNamedIndividual>  // Execute OWL queries
+
+5. State Visualization:
+
+override fun toString(): String =
+    """
+    Global store: $heap
+    Stack:
+    ${stack.joinToString(...)}
+    """
+
+ */
+
 @file:Suppress(
     "LiftReturnOrAssignment"
 )
@@ -29,7 +80,6 @@ import org.semanticweb.owlapi.reasoner.NodeSet
 import java.io.File
 import java.io.FileWriter
 import java.util.*
-import kotlin.streams.toList
 
 data class InfluxDBConnection(val url : String, val org : String, val token : String, val bucket : String){
     private var influxDBClient : InfluxDBClientKotlin? = null

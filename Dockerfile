@@ -7,8 +7,10 @@
 FROM ubuntu:latest
 RUN <<EOF
     apt-get -y update
-    DEBIAN_FRONTEND=noninteractive apt-get -y install openjdk-11-jdk-headless python3 python3-pip liblapack3
+    DEBIAN_FRONTEND=noninteractive apt-get -y install openjdk-11-jdk-headless python3 python3-pip python3-venv liblapack3
     rm -rf /var/lib/apt/lists/*
+    python3 -m venv /opt/venv
+    . /opt/venv/bin/activate
     pip3 install pyzmq
 EOF
 COPY . /usr/local/src/smol

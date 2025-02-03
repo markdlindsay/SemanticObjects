@@ -1,3 +1,10 @@
+/*
+- Represents a simulation statement in the SMOL language.
+- Used to create and assign a simulation object (SimulatorObject) to a target variable.
+- Deals with the computational aspect of the program by integrating external simulation models (FMUs) into the SMOL language.
+ */
+
+
 package no.uio.microobject.ast.stmt
 
 import no.uio.microobject.ast.Location

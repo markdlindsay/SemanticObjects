@@ -1,0 +1,285 @@
+.
+├── Dockerfile
+├── LICENSE.txt
+├── README.md
+├── build.gradle
+├── dir_structure.txt
+├── domain.pdf
+├── editor-support
+│   ├── atom
+│   │   ├── README.md
+│   │   └── language-smol
+│   │       ├── grammars
+│   │       │   └── smol.cson
+│   │       ├── package.json
+│   │       ├── settings
+│   │       │   └── language-smol.cson
+│   │       ├── snippets
+│   │       │   └── language-smol.cson
+│   │       └── spec
+│   │           └── language-smol-spec.coffee
+│   └── emacs
+│       ├── README.md
+│       └── smol-mode.el
+├── eval
+│   ├── TTT_class_schema.smol
+│   ├── TTT_rule_schema.smol
+│   ├── eval_class.imo
+│   ├── eval_rule.imo
+│   └── generate.sh
+├── examples
+│   ├── Cosim.smol
+│   ├── Deprecated
+│   │   ├── OvenTwin
+│   │   │   ├── Connector.smol
+│   │   │   ├── just.imo
+│   │   │   └── ovens.owl
+│   │   ├── README.md
+│   │   ├── geo.back
+│   │   ├── geo.imo
+│   │   └── geo.smol
+│   ├── DummyFMUs
+│   │   ├── Clock.fmu
+│   │   ├── Controller.fmu
+│   │   ├── FMUDummiesTotal.mo
+│   │   ├── InnerWall.fmu
+│   │   ├── NewRoom.fmu
+│   │   ├── OuterWall.fmu
+│   │   └── Room.fmu
+│   ├── Geological
+│   │   ├── microex.ttl
+│   │   ├── simulate_onto.smol
+│   │   └── total_mini.ttl
+│   ├── House
+│   │   ├── README.txt
+│   │   ├── osphouse.smol
+│   │   ├── osphouseV2.smol
+│   │   ├── osphouseV3.smol
+│   │   ├── rooms.owl
+│   │   └── shape.ttl
+│   ├── Orchestrate
+│   │   ├── Gauss.smol
+│   │   └── Jacobi.smol
+│   ├── Shadow
+│   │   ├── Realsys.fmu
+│   │   ├── Sim.fmu
+│   │   ├── detect.smol
+│   │   ├── series.smol
+│   │   └── shadow.smol
+│   ├── SimulationDemo
+│   │   ├── Linear.fmu
+│   │   ├── Linear.smol
+│   │   ├── LinearObjects.smol
+│   │   ├── Predator.fmu
+│   │   ├── Predator.mo
+│   │   ├── Prey.fmu
+│   │   ├── Prey.mo
+│   │   ├── Tank.fmu
+│   │   ├── Tank.smol
+│   │   ├── Test.mo
+│   │   ├── lotka-volterra.smol
+│   │   ├── lv-plus.smol
+│   │   └── lv-simple.smol
+│   ├── TTT.imo
+│   ├── Tutorial
+│   │   ├── Controller.fmu
+│   │   ├── Room.fmu
+│   │   ├── Wall.fmu
+│   │   ├── demo1.smol
+│   │   ├── demo2.owl
+│   │   ├── demo2.smol
+│   │   ├── demo3.owl
+│   │   ├── demo3.smol
+│   │   ├── demo_cloud.owl
+│   │   ├── demo_cloud.smol
+│   │   └── demo_semantic.smol
+│   ├── TwoThreeTree.back
+│   ├── University
+│   │   ├── university.imo
+│   │   ├── university.smol
+│   │   └── university.ttl
+│   ├── Virtualization
+│   │   ├── virtualization.imo
+│   │   ├── virtualization.smol
+│   │   └── virtualization.ttl
+│   ├── adder.fmu
+│   ├── bug.smol
+│   ├── construct.smol
+│   ├── destroy.smol
+│   ├── double.imo
+│   ├── double.rq
+│   ├── double.ttl
+│   ├── external.ttl
+│   ├── influx.smol
+│   ├── models.smol
+│   ├── newbackgeo.rule
+│   ├── newgeo.owl
+│   ├── newgeo.rule
+│   ├── newgeo.smol
+│   ├── overload.back
+│   ├── overload.imo
+│   ├── persons.back
+│   ├── scene.imo
+│   ├── shape.ttl
+│   ├── simulate.imo
+│   ├── translatescene.smol
+│   ├── tree_shapes.ttl
+│   ├── tutorial_day1.pdf
+│   ├── tutorial_day2.pdf
+│   ├── tutorialfiles.zip
+│   └── type_query.smol
+├── execute_case.sh
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle
+├── src
+│   ├── main
+│   │   ├── antlr
+│   │   │   └── While.g4
+│   │   ├── kotlin
+│   │   │   └── no
+│   │   │       └── uio
+│   │   │           └── microobject
+│   │   │               ├── ast
+│   │   │               │   ├── AST.kt
+│   │   │               │   ├── Translate.kt
+│   │   │               │   ├── expr
+│   │   │               │   │   ├── ArithExpr.kt
+│   │   │               │   │   ├── LiteralExpr.kt
+│   │   │               │   │   ├── LocalVar.kt
+│   │   │               │   │   ├── OthersVar.kt
+│   │   │               │   │   └── OwnVar.kt
+│   │   │               │   └── stmt
+│   │   │               │       ├── AccessStmt.kt
+│   │   │               │       ├── AssignStmt.kt
+│   │   │               │       ├── CallStmt.kt
+│   │   │               │       ├── ConstructStmt.kt
+│   │   │               │       ├── CreateStmt.kt
+│   │   │               │       ├── DebugStmt.kt
+│   │   │               │       ├── DestroyStmt.kt
+│   │   │               │       ├── IfStmt.kt
+│   │   │               │       ├── OwlStmt.kt
+│   │   │               │       ├── PrintStmt.kt
+│   │   │               │       ├── ReturnStmt.kt
+│   │   │               │       ├── SequenceStmt.kt
+│   │   │               │       ├── SimulationStmt.kt
+│   │   │               │       ├── SkipStmt.kt
+│   │   │               │       ├── StoreReturnStmt.kt
+│   │   │               │       ├── SuperStmt.kt
+│   │   │               │       ├── TickStmt.kt
+│   │   │               │       ├── ValidateStmt.kt
+│   │   │               │       └── WhileStmt.kt
+│   │   │               ├── data
+│   │   │               │   └── TripleManager.kt
+│   │   │               ├── main
+│   │   │               │   └── MainKt.kt
+│   │   │               ├── runtime
+│   │   │               │   ├── Interpreter.kt
+│   │   │               │   ├── REPL.kt
+│   │   │               │   ├── Simulation.kt
+│   │   │               │   └── State.kt
+│   │   │               └── type
+│   │   │                   ├── QueryChecker.kt
+│   │   │                   ├── TypeChecker.kt
+│   │   │                   ├── TypeErrors.kt
+│   │   │                   └── Types.kt
+│   │   └── resources
+│   │       ├── StdLib.smol
+│   │       └── vocab.owl
+│   └── test
+│       ├── kotlin
+│       │   └── no
+│       │       └── uio
+│       │           └── microobject
+│       │               └── test
+│       │                   ├── MicroObjectTest.kt
+│       │                   ├── RegressionTests.kt
+│       │                   ├── basic
+│       │                   │   └── BasicTest.kt
+│       │                   ├── execution
+│       │                   │   ├── FMOLExecutionTest.kt
+│       │                   │   ├── MOLExecutionTest.kt
+│       │                   │   └── SMOLExecutionTest.kt
+│       │                   ├── triples
+│       │                   │   ├── OWLQueryTest.kt
+│       │                   │   └── SparqlCountTest.kt
+│       │                   └── type
+│       │                       ├── FMOLTypeTest.kt
+│       │                       ├── MOLTypeTest.kt
+│       │                       ├── MicroObjectTypeTest.kt
+│       │                       └── SMOLTypeTest.kt
+│       └── resources
+│           ├── Jacobi.smol
+│           ├── TwoThreeTree.smol
+│           ├── adder.fmu
+│           ├── bug_10.smol
+│           ├── destroy.smol
+│           ├── double.smol
+│           ├── linear.fmu
+│           ├── models.owl
+│           ├── models.smol
+│           ├── overload.smol
+│           ├── persons.smol
+│           ├── poly.smol
+│           ├── scene.smol
+│           ├── test_assign.smol
+│           ├── test_call.smol
+│           ├── test_fmu.smol
+│           ├── test_generic.smol
+│           ├── test_override.smol
+│           ├── type_query.smol
+│           └── types.smol
+└── website
+    ├── Makefile
+    ├── Pipfile
+    ├── Pipfile.lock
+    ├── README.md
+    ├── make.bat
+    ├── smol.ebnf
+    └── source
+        ├── conf.py
+        ├── files
+        │   └── tutorial_ictac2022
+        │       ├── demo_day1.pdf
+        │       └── demo_day2.pdf
+        ├── getting-started.rst
+        ├── glossary.rst
+        ├── images
+        │   ├── alone.pdf
+        │   ├── alone.png
+        │   ├── conceptual-layers.svg
+        │   ├── drawio
+        │   │   ├── conceptual-layers.drawio
+        │   │   ├── house-asset-use-case.drawio
+        │   │   ├── owl-example.drawio
+        │   │   └── rdf-example.drawio
+        │   ├── house-asset-use-case.svg
+        │   ├── house-asset-use-case_2.svg
+        │   ├── owl-example.svg
+        │   └── rdf-example.svg
+        ├── index.rst
+        ├── internals.rst
+        ├── introduction.rst
+        ├── language
+        │   ├── classes.rst
+        │   ├── datatypes.rst
+        │   ├── expressions.rst
+        │   ├── fmos.rst
+        │   ├── lexical-structure.rst
+        │   ├── semantic-access.rst
+        │   └── statements.rst
+        ├── language.rst
+        ├── publications.rst
+        ├── tutorial
+        │   ├── digital-twins.rst
+        │   ├── knowledge-modelling.rst
+        │   ├── modelling-physical-systems.rst
+        │   └── semantical-reflection.rst
+        └── tutorial.rst
+
+58 directories, 225 files

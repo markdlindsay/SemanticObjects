@@ -11,7 +11,7 @@ sourceCompatibility = '1.11'
 
 repositories {
     mavenCentral()
-    maven { url "https://overture.au.dk/artifactory/libs-release/" }
+//    maven { url "https://overture.au.dk/artifactory/libs-release/" }
 }
 
 test {
@@ -42,7 +42,7 @@ dependencies {
     implementation 'com.sksamuel.hoplite:hoplite-yaml:1.4.1'
     implementation 'com.github.owlcs:ontapi:2.1.0'
     implementation 'org.jline:jline:3.21.0'
-    implementation "into-cps:scenario_verifier_2.13:0.2.14"
+//    implementation "into-cps:scenario_verifier_2.13:0.2.14"
 }
 
 
@@ -60,6 +60,16 @@ jar {
     archiveFileName='smol.jar'
     manifest {
         attributes 'Main-Class': 'no.uio.microobject.main.MainKtKt'
+        /*
+        In Kotlin, when you write a top-level function (like main()) in a file named MainKt.kt, the Kotlin compiler generates a Java class with the name MainKtKt.
+        1. First Kt is added to the file name because it is a Kotlin file, making it MainKt.
+        2. Another Kt is added when generating the Java class that contains the top-level functions, making it MainKtKt.
+        This double Kt naming pattern is part of how Kotlin implements top-level functions when compiling to JVM bytecode, since Java requires all functions to be inside a class. The compiler needs to create a class to hold these top-level functions, and it uses this naming convention to avoid conflicts.
+        So in this case:
+        - The source file is MainKt.kt.
+        - The generated class is MainKtKt.
+        - The manifest needs to reference the generated class name MainKtKt.
+         */
     }
 }
 shadowJar {

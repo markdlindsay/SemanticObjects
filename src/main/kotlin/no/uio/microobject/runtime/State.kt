@@ -9,6 +9,13 @@ import no.uio.microobject.type.Type
 We use the term "heap" NOT in the sense of C and other low-level here.
 Heap memory is barely the opposite of local memory, we have no assumptions about the memory.
  */
+/*
+Memory, GlobalMemory, SimulationMemory, FieldEntry, and ModelsEntry are type alias.
+Why using type alias:
+- Makes code more readable by using a domain-specific name.
+- Avoids typing the long generic type repeatedly.
+- Communicates the intent/purpose of this particular kind of map.
+ */
 typealias Memory = MutableMap<String, LiteralExpr>       // Maps variable names to values
 typealias GlobalMemory = MutableMap<LiteralExpr, Memory>  // Maps object name literals to local memories
 typealias SimulationMemory = MutableMap<LiteralExpr, SimulatorObject>  // Maps object name literals to local memories
