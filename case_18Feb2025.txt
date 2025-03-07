@@ -1,0 +1,705 @@
+> Task :generateGrammarSource UP-TO-DATE
+> Task :compileKotlin UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :compileScala NO-SOURCE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :shadowJar UP-TO-DATE
+
+BUILD SUCCESSFUL in 454ms
+5 actionable tasks: 5 up-to-date
+Line 232, WARNING: Type checking this form of (C)SSA is not supported yet 
+Line 268, ERROR: Type ChalkUnit is not assignable to SandstoneUnit
+Line 272, ERROR: Type ChalkUnit is not assignable to SandstoneUnit
+MO-out> Evaluation took 0.95689000 seconds 
+
+> Updating simulation with t =
+-134.0
+Shale at: 
+40.0
+Sandstone at: 
+26.5
+> Updating simulation with t =
+-132.0
+Shale at: 
+40.0
+Sandstone at: 
+53.0
+> Updating simulation with t =
+-130.0
+Shale at: 
+40.0
+Sandstone at: 
+79.5
+> Updating simulation with t =
+-128.0
+Shale at: 
+40.0
+Sandstone at: 
+106.0
+> Updating simulation with t =
+-126.0
+Shale at: 
+40.0
+Sandstone at: 
+132.5
+> Updating simulation with t =
+-124.0
+Shale at: 
+40.0
+Sandstone at: 
+159.0
+> Updating simulation with t =
+-122.0
+Shale at: 
+40.0
+Sandstone at: 
+185.5
+> Updating simulation with t =
+-120.0
+Shale at: 
+40.0
+Sandstone at: 
+212.0
+> Updating simulation with t =
+-118.0
+Shale at: 
+40.0
+Sandstone at: 
+238.5
+> Updating simulation with t =
+-116.0
+Shale at: 
+40.0
+Sandstone at: 
+265.0
+> Updating simulation with t =
+-114.0
+Shale at: 
+40.0
+Sandstone at: 
+291.5
+> Updating simulation with t =
+-112.0
+Shale at: 
+40.0
+Sandstone at: 
+318.0
+> Updating simulation with t =
+-110.0
+Shale at: 
+40.0
+Sandstone at: 
+344.5
+> Updating simulation with t =
+-108.0
+Shale at: 
+40.0
+Sandstone at: 
+371.0
+> Updating simulation with t =
+-106.0
+Shale at: 
+40.0
+Sandstone at: 
+397.5
+> Updating simulation with t =
+-104.0
+Shale at: 
+40.0
+Sandstone at: 
+424.0
+> Updating simulation with t =
+-102.0
+Shale at: 
+40.0
+Sandstone at: 
+450.5
+> Updating simulation with t =
+-100.0
+Shale at: 
+40.0
+Sandstone at: 
+477.0
+> Updating simulation with t =
+-98.0
+Shale at: 
+40.0
+Sandstone at: 
+503.5
+> Updating simulation with t =
+-96.0
+Shale at: 
+40.0
+Sandstone at: 
+530.0
+> Updating simulation with t =
+-94.0
+Shale at: 
+40.0
+Sandstone at: 
+556.5
+> Updating simulation with t =
+-92.0
+Shale at: 
+40.0
+Sandstone at: 
+583.0
+> Updating simulation with t =
+-90.0
+Shale at: 
+40.0
+Sandstone at: 
+609.5
+> Updating simulation with t =
+-88.0
+Shale at: 
+40.0
+Sandstone at: 
+636.0
+> Updating simulation with t =
+-86.0
+Shale at: 
+40.0
+Sandstone at: 
+662.5
+> Updating simulation with t =
+-84.0
+Shale at: 
+40.0
+Sandstone at: 
+689.0
+> Updating simulation with t =
+-82.0
+Shale at: 
+40.0
+Sandstone at: 
+715.5
+> Updating simulation with t =
+-80.0
+Shale at: 
+40.0
+Sandstone at: 
+742.0
+> Updating simulation with t =
+-78.0
+Shale at: 
+40.0
+Sandstone at: 
+768.5
+> Updating simulation with t =
+-76.0
+Shale at: 
+40.0
+Sandstone at: 
+795.0
+> Updating simulation with t =
+-74.0
+Shale at: 
+40.0
+Sandstone at: 
+821.5
+> Updating simulation with t =
+-72.0
+Shale at: 
+40.0
+Sandstone at: 
+889.0
+> Updating simulation with t =
+-70.0
+Shale at: 
+40.0
+Sandstone at: 
+956.5
+> Updating simulation with t =
+-68.0
+Shale at: 
+40.0
+Sandstone at: 
+1024.0
+> Updating simulation with t =
+-66.0
+Shale at: 
+40.0
+Sandstone at: 
+1091.5
+> Updating simulation with t =
+-64.0
+Shale at: 
+40.0
+Sandstone at: 
+1159.0
+reasoning finished
+> Updating simulation with t =
+-62.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+reasoning finished
+> Updating simulation with t =
+-60.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+reasoning finished
+> Updating simulation with t =
+-58.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+186.0
+reasoning finished
+> Updating simulation with t =
+-56.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+372.0
+reasoning finished
+> Updating simulation with t =
+-54.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+558.0
+reasoning finished
+> Updating simulation with t =
+-52.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+744.0
+reasoning finished
+>> maturation on-going!
+>> depth
+2032.0
+>> temp
+63.46
+migrate from shale
+> Updating simulation with t =
+-50.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+930.0
+reasoning finished
+>> maturation on-going!
+>> depth
+2218.0
+>> temp
+69.03999999999999
+migrate from shale
+> Updating simulation with t =
+-48.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+1028.05
+reasoning finished
+>> maturation on-going!
+>> depth
+2316.05
+>> temp
+71.98150000000001
+migrate from shale
+> Updating simulation with t =
+-46.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+1126.1
+reasoning finished
+>> maturation on-going!
+>> depth
+2414.1
+>> temp
+74.923
+migrate from shale
+> Updating simulation with t =
+-44.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+1224.1499999999999
+reasoning finished
+>> maturation on-going!
+>> depth
+2512.1499999999996
+>> temp
+77.86449999999999
+migrate from shale
+> Updating simulation with t =
+-42.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+1322.1999999999998
+reasoning finished
+>> maturation on-going!
+>> depth
+2610.2
+>> temp
+80.806
+migrate from shale
+> Updating simulation with t =
+-40.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+1420.2499999999998
+reasoning finished
+>> maturation on-going!
+>> depth
+2708.25
+>> temp
+83.7475
+migrate from shale
+> Updating simulation with t =
+-38.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+1518.2999999999997
+reasoning finished
+>> maturation on-going!
+>> depth
+2806.2999999999997
+>> temp
+86.689
+migrate from shale
+> Updating simulation with t =
+-36.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+1616.3499999999997
+reasoning finished
+>> maturation on-going!
+>> depth
+2904.3499999999995
+>> temp
+89.63049999999998
+migrate from shale
+> Updating simulation with t =
+-34.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+1714.3999999999996
+reasoning finished
+>> maturation on-going!
+>> depth
+3002.3999999999996
+>> temp
+92.57199999999999
+migrate from shale
+> Updating simulation with t =
+-32.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+1812.4499999999996
+reasoning finished
+>> maturation on-going!
+>> depth
+3100.45
+>> temp
+95.5135
+migrate from shale
+> Updating simulation with t =
+-30.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+1910.4999999999995
+reasoning finished
+>> maturation on-going!
+>> depth
+3198.4999999999995
+>> temp
+98.45499999999998
+migrate from shale
+> Updating simulation with t =
+-28.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+2008.5499999999995
+reasoning finished
+>> maturation on-going!
+>> depth
+3296.5499999999993
+>> temp
+101.39649999999999
+migrate from shale
+> Updating simulation with t =
+-26.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+2106.5999999999995
+reasoning finished
+>> maturation on-going!
+>> depth
+3394.5999999999995
+>> temp
+104.338
+migrate from shale
+> Updating simulation with t =
+-24.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+2204.6499999999996
+reasoning finished
+>> maturation on-going!
+>> depth
+3492.6499999999996
+>> temp
+107.2795
+migrate from shale
+> Updating simulation with t =
+-22.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+2302.7
+reasoning finished
+>> maturation on-going!
+>> depth
+3590.7
+>> temp
+110.221
+migrate from shale
+> Updating simulation with t =
+-20.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+2400.75
+reasoning finished
+>> maturation on-going!
+>> depth
+3688.75
+>> temp
+113.16250000000001
+migrate from shale
+> Updating simulation with t =
+-18.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+2498.8
+reasoning finished
+>> maturation on-going!
+>> depth
+3786.8
+>> temp
+116.10400000000001
+migrate from shale
+> Updating simulation with t =
+-16.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+2596.8500000000004
+reasoning finished
+>> maturation on-going!
+>> depth
+3884.8500000000004
+>> temp
+119.04550000000002
+migrate from shale
+> Updating simulation with t =
+-14.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+2694.9000000000005
+reasoning finished
+> Updating simulation with t =
+-12.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+2792.9500000000007
+reasoning finished
+> Updating simulation with t =
+-10.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+2891.000000000001
+reasoning finished
+> Updating simulation with t =
+-8.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+2989.050000000001
+reasoning finished
+> Updating simulation with t =
+-6.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+3087.1000000000013
+reasoning finished
+> Updating simulation with t =
+-4.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+3185.1500000000015
+reasoning finished
+> Updating simulation with t =
+-2.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+3283.2000000000016
+reasoning finished
+> Updating simulation with t =
+0.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+3381.250000000002
+reasoning finished
+> Updating simulation with t =
+2.0
+Shale at: 
+40.0
+Sandstone at: 
+1258.0
+Shale at: 
+30.0
+Sandstone at: 
+3479.300000000002
+reasoning finished
+> Ending simulation with t =-
+2.0

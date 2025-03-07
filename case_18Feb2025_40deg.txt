@@ -1,0 +1,616 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :generateGrammarSource UP-TO-DATE
+> Task :compileKotlin UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :compileScala NO-SOURCE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :shadowJar UP-TO-DATE
+
+BUILD SUCCESSFUL in 7s
+5 actionable tasks: 5 up-to-date
+Line 238, WARNING: Type checking this form of (C)SSA is not supported yet 
+Line 275, ERROR: Type ChalkUnit is not assignable to SandstoneUnit
+Line 279, ERROR: Type ChalkUnit is not assignable to SandstoneUnit
+MO-out> Evaluation took 0.93570000 seconds 
+
+> Updating simulation with t =
+-134.0
+Shale at: 
+40.0
+Sandstone at: 
+98.05
+> Updating simulation with t =
+-132.0
+Shale at: 
+40.0
+Sandstone at: 
+196.1
+> Updating simulation with t =
+-130.0
+Shale at: 
+40.0
+Sandstone at: 
+294.15
+> Updating simulation with t =
+-128.0
+Shale at: 
+40.0
+Sandstone at: 
+392.2
+> Updating simulation with t =
+-126.0
+Shale at: 
+40.0
+Sandstone at: 
+490.25
+> Updating simulation with t =
+-124.0
+Shale at: 
+40.0
+Sandstone at: 
+588.3
+> Updating simulation with t =
+-122.0
+Shale at: 
+40.0
+Sandstone at: 
+686.3499999999999
+> Updating simulation with t =
+-120.0
+Shale at: 
+40.0
+Sandstone at: 
+784.3999999999999
+> Updating simulation with t =
+-118.0
+Shale at: 
+40.0
+Sandstone at: 
+882.4499999999998
+> Updating simulation with t =
+-116.0
+Shale at: 
+40.0
+Sandstone at: 
+980.4999999999998
+> Updating simulation with t =
+-114.0
+Shale at: 
+40.0
+Sandstone at: 
+1078.5499999999997
+> Updating simulation with t =
+-112.0
+Shale at: 
+40.0
+Sandstone at: 
+1176.5999999999997
+> Updating simulation with t =
+-110.0
+Shale at: 
+40.0
+Sandstone at: 
+1274.6499999999996
+> Updating simulation with t =
+-108.0
+Shale at: 
+40.0
+Sandstone at: 
+1372.6999999999996
+> Updating simulation with t =
+-106.0
+Shale at: 
+40.0
+Sandstone at: 
+1470.7499999999995
+> Updating simulation with t =
+-104.0
+Shale at: 
+40.0
+Sandstone at: 
+1568.7999999999995
+> Updating simulation with t =
+-102.0
+Shale at: 
+40.0
+Sandstone at: 
+1666.8499999999995
+> Updating simulation with t =
+-100.0
+Shale at: 
+40.0
+Sandstone at: 
+1764.8999999999994
+> Updating simulation with t =
+-98.0
+Shale at: 
+40.0
+Sandstone at: 
+1862.9499999999994
+> Updating simulation with t =
+-96.0
+Shale at: 
+40.0
+Sandstone at: 
+1960.9999999999993
+> Updating simulation with t =
+-94.0
+Shale at: 
+40.0
+Sandstone at: 
+2059.0499999999993
+> Updating simulation with t =
+-92.0
+Shale at: 
+40.0
+Sandstone at: 
+2157.0999999999995
+> Updating simulation with t =
+-90.0
+Shale at: 
+40.0
+Sandstone at: 
+2255.1499999999996
+> Updating simulation with t =
+-88.0
+Shale at: 
+40.0
+Sandstone at: 
+2353.2
+> Updating simulation with t =
+-86.0
+Shale at: 
+40.0
+Sandstone at: 
+2451.25
+> Updating simulation with t =
+-84.0
+Shale at: 
+40.0
+Sandstone at: 
+2549.3
+> Updating simulation with t =
+-82.0
+Shale at: 
+40.0
+Sandstone at: 
+2735.3
+> Updating simulation with t =
+-80.0
+Shale at: 
+40.0
+Sandstone at: 
+2921.3
+> Updating simulation with t =
+-78.0
+Shale at: 
+40.0
+Sandstone at: 
+3107.3
+> Updating simulation with t =
+-76.0
+Shale at: 
+40.0
+Sandstone at: 
+3293.3
+> Updating simulation with t =
+-74.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+> Updating simulation with t =
+-72.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+> Updating simulation with t =
+-70.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+99.0
+> Updating simulation with t =
+-68.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+166.5
+> Updating simulation with t =
+-66.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+234.0
+> Updating simulation with t =
+-64.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+301.5
+reasoning finished
+> Updating simulation with t =
+-62.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+369.0
+reasoning finished
+> Updating simulation with t =
+-60.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+436.5
+reasoning finished
+> Updating simulation with t =
+-58.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+463.0
+reasoning finished
+> Updating simulation with t =
+-56.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+489.5
+reasoning finished
+> Updating simulation with t =
+-54.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+516.0
+reasoning finished
+> Updating simulation with t =
+-52.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+542.5
+reasoning finished
+> Updating simulation with t =
+-50.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+569.0
+reasoning finished
+> Updating simulation with t =
+-48.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+595.5
+reasoning finished
+> Updating simulation with t =
+-46.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+622.0
+reasoning finished
+> Updating simulation with t =
+-44.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+648.5
+reasoning finished
+> Updating simulation with t =
+-42.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+675.0
+reasoning finished
+> Updating simulation with t =
+-40.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+701.5
+reasoning finished
+> Updating simulation with t =
+-38.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+728.0
+reasoning finished
+> Updating simulation with t =
+-36.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+754.5
+reasoning finished
+> Updating simulation with t =
+-34.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+781.0
+reasoning finished
+> Updating simulation with t =
+-32.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+807.5
+reasoning finished
+> Updating simulation with t =
+-30.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+834.0
+reasoning finished
+> Updating simulation with t =
+-28.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+860.5
+reasoning finished
+> Updating simulation with t =
+-26.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+887.0
+reasoning finished
+> Updating simulation with t =
+-24.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+913.5
+reasoning finished
+> Updating simulation with t =
+-22.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+940.0
+reasoning finished
+> Updating simulation with t =
+-20.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+966.5
+reasoning finished
+> Updating simulation with t =
+-18.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+993.0
+reasoning finished
+> Updating simulation with t =
+-16.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+1019.5
+reasoning finished
+> Updating simulation with t =
+-14.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+1046.0
+reasoning finished
+> Updating simulation with t =
+-12.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+1072.5
+reasoning finished
+> Updating simulation with t =
+-10.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+1099.0
+reasoning finished
+> Updating simulation with t =
+-8.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+1125.5
+reasoning finished
+> Updating simulation with t =
+-6.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+1152.0
+reasoning finished
+> Updating simulation with t =
+-4.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+1178.5
+reasoning finished
+> Updating simulation with t =
+-2.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+1205.0
+reasoning finished
+> Updating simulation with t =
+0.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+1231.5
+reasoning finished
+> Updating simulation with t =
+2.0
+Shale at: 
+40.0
+Sandstone at: 
+3479.3
+Shale at: 
+30.0
+Chalk at: 
+1258.0
+reasoning finished
+> Ending simulation with t =-
+2.0

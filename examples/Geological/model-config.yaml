@@ -1,0 +1,31 @@
+# this will be a YAML model file for the onto sim
+
+# these arguments are read into the .smol file
+
+
+#Simulation arguments - for driver.sim
+#dl = # driver stratigraphic model - refers to the driver object. This is an arg, but dl is assigned in the loop the driver.sim is called. 
+# if we eanted to test different stratigraphic models, we could pass in different dl objects. SOmething to think about.
+start_time =  136. # double in Ma (million years ago) units 
+basal_unit =  'mandal' # string - name of the basal unit
+trigger_time = -66. # double in Ma (million years ago) units
+
+# chalk unit
+position_change = 100. #double in meters
+postion_change_if_reached_limit_trap = -1. #double in meters
+postion_change_if_reached_limit_leak = -1. #double in meters
+
+# sandstone unit
+position_change = 100. #double in meters
+postion_change_if_reached_limit_trap = -1. #double in meters
+postion_change_if_reached_limit_leak = -1. #double in meters
+
+# shale unit
+# only temp defined here. (why temp gradient defined here? Should be general TODO)
+
+# temperature gradient defined 
+
+initial_temperature = 2.5  # double in degrees C
+dist_gradient = 1000. # double in meters - this will be temp delta over x metres, e.g. something over 1000 metres
+temp_delta = 30 # double in degrees C per dist_gradient
+
