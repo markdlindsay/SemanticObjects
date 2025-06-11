@@ -186,7 +186,7 @@ class sandConglomerate extends GeoUnit (List<Double> kerogenUnits)
     end
 
     override GeoUnit clone()
-        GeoUnit g = new conglom_sandstone(null, null, null, null, null, null, this.size, this.mergeId, this.kerogenUnits);
+        GeoUnit g = new sandConglomerate(null, null, null, null, null, null, this.size, this.mergeId, this.kerogenUnits);
         return g;
     end
     override Boolean caps() return False; end
@@ -223,7 +223,7 @@ class siltShale extends GeoUnit (hidden Double temperature, hidden Boolean hasKe
         end
     end
     override GeoUnit clone()
-        GeoUnit g = new CopperbeltOrebodyMember(null, null, null, null, null, null, this.size, this.mergeId, this.temperature, this.hasKerogenSource, this.maturedUnits);
+        GeoUnit g = new siltShale(null, null, null, null, null, null, this.size, this.mergeId, this.temperature, this.hasKerogenSource, this.maturedUnits);
         return g;
     end
     Unit mature()
@@ -270,7 +270,7 @@ class mixedSandSiltCarb extends GeoUnit (hidden Double temperature, hidden Boole
         end
     end
     override GeoUnit clone()
-        GeoUnit g = new CopperbeltOrebodyMember(null, null, null, null, null, null, this.size, this.mergeId, this.temperature, this.hasKerogenSource, this.maturedUnits);
+        GeoUnit g = new mixedSandSiltCarb(null, null, null, null, null, null, this.size, this.mergeId, this.temperature, this.hasKerogenSource, this.maturedUnits);
         return g;
     end
     Unit mature()
@@ -330,11 +330,11 @@ hidden class Driver(GeoUnit top, GeoUnit bottom)
                 print(now);
                 this.printState(this.bottom);
                 if now > checkStart  then
-                    List<CopperbeltOrebodyMember> fs = member("<domain:models> some (<obo:RO_0000056> some <domain:oil_window_maturation_trigger>)");
+                    List<siltShale> fs = member("<domain:models> some (<obo:RO_0000056> some <domain:oil_window_maturation_trigger>)");
                     print("reasoning finished");
                     while fs != null do
                       fs.content.mature();
-                      List<CopperbeltOrebodyMember> os = fs;
+                      List<siltShale> os = fs;
                       fs = fs.next;
                       destroy(os);
                     end
@@ -399,7 +399,10 @@ main
     mixedSandSiltCarb lowerKundelungu = new mixedSandSiltCarb(null, null, null, null, null, null, 100.0, 1, 0.0, True, 0);
     DepositionGenerator depLowerKundelungu = new DepositionGenerator(lowerKundelungu, 2.0, 31);
     dl = new List<DepositionGenerator>(depLowerKundelungu, dl);
+    dl = dl.reverse();
 
+    Driver driver = new Driver(null,null);
+    driver.sim(dl, sp.start_time, sp.basal_unit, (sp.trigger_time));
 end
 
 /*

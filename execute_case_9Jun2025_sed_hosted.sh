@@ -1,5 +1,5 @@
 #!/bin/bash
 ./gradlew shadowJar
 #java -jar build/libs/smol.jar -i examples/Geological/simulate_sed_hosted_Cu_5May2025.smol -v -e -b examples/Geological/total_mini.ttl -p UFRGS1=https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS -p obo=http://purl.obolibrary.org/obo/ -d http://www.semanticweb.org/quy/ontologies/2023/2/untitled-ontology-38#
-#java -jar build/libs/smol.jar -i examples/Geological/simulate_onto_17Feb2025.smol -v -e -b examples/Geological/total_mini.ttl -p UFRGS1=https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS -p obo=http://purl.obolibrary.org/obo/ -d http://www.semanticweb.org/quy/ontologies/2023/2/untitled-ontology-38#
-java -jar build/libs/smol.jar -i examples/Geological/simulate_onto.smol -v -e -b examples/Geological/total_mini.ttl -p UFRGS1=https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS -p obo=http://purl.obolibrary.org/obo/ 
+java -jar build/libs/smol.jar -i examples/Geological/simulate_onto_17Feb2025.smol -v -e -b examples/Geological/total_mini.ttl -p UFRGS1=https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS -p obo=http://purl.obolibrary.org/obo/ -d http://www.semanticweb.org/quy/ontologies/2023/2/untitled-ontology-38#
+#java -jar build/libs/smol.jar -i examples/Geological/simulate_onto.smol -v -e -b examples/Geological/total_mini.ttl -p UFRGS1=https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS -p obo=http://purl.obolibrary.org/obo/ 
